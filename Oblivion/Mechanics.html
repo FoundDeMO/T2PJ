@@ -242,9 +242,52 @@
 		margin-top: -20px;
 		
 		}
+
+		
+		table th, td {
+			
+			text-align: center;
+			
+			border: 5px solid black;
 		
 		}
-
+		
+		table {
+		
+			border-collapse: collapse;
+			
+			width: 			 850px;
+			
+		}
+		
+		tr:nth-child(even) {
+		
+		background-color: white;
+		
+		}
+		
+		tr:nth-child(odd) {
+		
+		background-color: #703D3A;
+		
+		}
+		
+		th, td {
+		
+			padding: 12px;
+			
+		}
+		
+		th {
+			background-color: grey;
+			color: black;
+		}
+		
+		td:hover {
+		background-color: brown;
+		color: white;
+		}
+		
 		
 
 	</style>
@@ -291,13 +334,34 @@
 	<li>Healing Spells</li>
 	<li>Summoning Spells</li>
 	<li>Camouflage Spells</li>
-	<ol>
+	</ol>
 	
 	<h1 class="glow" >Combat</h1>
 	
 	<img class="ok" width="1024px" height="576px" src="combat1.png">
 	
-	<p></p>
+	<p>oblivion contains multiple classes of weapons and armour, below is a table shows the difference</p>
+	
+	<table>
+		<tr>
+		<th>Type</th> 	<th>Two-Hand</th> 	<th>One-Hand</th> 	<th>Damage</th> 	<th>Weight</th> 	
+		</tr>
+		<tr>
+		<td>Heavy</td> 	<td>Yes</td> 	<td>No</td> 	<td>4-9</td> 	<td>35-70</td> 	
+		</tr>
+		<tr>
+		<td>Light</td> 	<td>Yes</td> 	<td>Yes</td> 	<td>2-6</td> 	<td>18-35</td> 	
+		</tr>
+		<tr>
+		<td>Spells</td> <td>No</td> 	<td>Yes</td> 	<td>?</td> 	<td>0.5</td> 	
+		</tr>
+		<tr>
+		<td>Agile</td> 	<td>No</td> 	<td>Yes</td> 	<td>1-4</td> 	<td>0-18</td> 	
+		</tr>
+		</table>
+	
+	
+	
 	
 
 </div>
